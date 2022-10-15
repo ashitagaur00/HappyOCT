@@ -1,0 +1,9 @@
+Creating a regular expression
+You construct a regular expression in one of two ways:
+
+Using a regular expression literal, which consists of a pattern enclosed between slashes, as follows:
+const re = /ab+c/;
+
+Regular expression literals provide compilation of the regular expression when the script is loaded. If the regular expression remains constant, using this can improve performance.
+Or calling the constructor function of the RegExp object, as follows:
+const re = new RegExp('ab+c');
