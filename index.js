@@ -11,3 +11,19 @@ for(let ch of str)
       this.isCookieModelOpened = false;
     if (!cookiesAccepted && !this.isCookieModelOpened) {
     console.log('test')}
+
+checkCookiesModel() {
+        this.isCookieModelOpened = true;
+        setTimeout(() => {
+          const dialogRef = this.dialog.open(SharedModelComponent, {
+            disableClose: true,
+            panelClass: 'cookiesModel',
+            data: {
+              cookiesSection: true
+            }
+          });
+          dialogRef.afterClosed().subscribe((res: any) => {
+            this.isCookieModelOpened = true;
+            localStorage.setItem('cookiesAcceptance', res)
+          });
+  }
