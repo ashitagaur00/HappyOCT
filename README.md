@@ -16,14 +16,14 @@ A repository containing basic programming questions in C, C++,JS and Python.
 ## :nerd_face: CONTRIBUTING!
 
 ### :100: Rules:
-1. Check the Questions [Here](QUESTIONS.md)
-2. Upload Solutions to the Correct Folders i.e. all C solutions must be added to C folder only
-3. All the files must be names as "quesn{Question_Number}.{filetype}". Example: Quesn0.cpp
-4. **Solve only 1 question in 1 PR. PRs with multiple questions will be rejected.**
-5. Create at most 4 PRs. Any more after that wont be accepted.
-6. Incorrect solutions will not be accepted.
-7. All PRs will be accepted on a **First Come First Serve Basis**. 
-8. Please give us 48hrs at max to respond to submitted PRs. 
+
+1. Upload Solutions to the Correct Folders i.e. all C solutions must be added to C folder only
+2. All the files must be names as "quesn{Question_Number}.{filetype}". Example: Quesn0.cpp
+3. **Solve only 1 question in 1 PR. PRs with multiple questions will be rejected.**
+4. Create at most 4 PRs. Any more after that wont be accepted.
+5. Incorrect solutions will not be accepted.
+6. All PRs will be accepted on a **First Come First Serve Basis**. 
+7. Please give us 48hrs at max to respond to submitted PRs. 
 
 
 ### :man_shrugging: How To:
