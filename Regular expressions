@@ -24,3 +24,26 @@ Groups and backreferences
 Quantifiers
 
 
+// example
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Regular Expressions</h2>
+
+<p>Do a case-insensitive search for "w3schools" in a string:</p>
+
+<p id="demo"></p>
+
+<script>
+let text = "Visit W3Schools";
+let pattern = /w3schools/i;
+let result = text.match(pattern);
+
+document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
+</html>
+
+
