@@ -18,7 +18,7 @@ A repository containing basic programming questions in C, C++,JS and Python.
 ### :100: Rules:
 
 1. Upload Solutions to the Correct Folders i.e. all C solutions must be added to C folder only
-2. All the files must be names as "quesn{Question_Number}.{filetype}". Example: Quesn0.cpp
+2. All the files must be a proper names
 3. **Solve only 1 question in 1 PR. PRs with multiple questions will be rejected.**
 4. Create at most 4 PRs. Any more after that wont be accepted.
 5. Incorrect solutions will not be accepted.
