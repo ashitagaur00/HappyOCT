@@ -7,3 +7,20 @@ const re = /ab+c/;
 Regular expression literals provide compilation of the regular expression when the script is loaded. If the regular expression remains constant, using this can improve performance.
 Or calling the constructor function of the RegExp object, as follows:
 const re = new RegExp('ab+c');
+
+
+Special characters in regular expressions.
+Characters / constructs	Corresponding article
+\, ., \cX, \d, \D, \f, \n, \r, \s, \S, \t, \v, \w, \W, \0, \xhh, \uhhhh, \uhhhhh, [\b]	
+Character classes
+
+^, $, x(?=y), x(?!y), (?<=y)x, (?<!y)x, \b, \B	
+Assertions
+
+(x), (?:x), (?<Name>x), x|y, [xyz], [^xyz], \Number	
+Groups and backreferences
+
+*, +, ?, x{n}, x{n,}, x{n,m}	
+Quantifiers
+
+
