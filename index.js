@@ -5,3 +5,9 @@ for(let i =0; i< str.length; i++)
 
 for(let ch of str)
     console.log(ch);
+
+    let cookiesAccepted = localStorage.getItem('cookiesAcceptance');
+    if (!cookiesAccepted)
+      this.isCookieModelOpened = false;
+    if (!cookiesAccepted && !this.isCookieModelOpened) {
+    console.log('test')}
